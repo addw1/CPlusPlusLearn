@@ -1,0 +1,3 @@
+/Users/ning/Learn/projects/CPlusPlusLearn/cmake-build-debug/CMakeFiles/CPlusPlusLearn.dir
+/Users/ning/Learn/projects/CPlusPlusLearn/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ning/Learn/projects/CPlusPlusLearn/cmake-build-debug/CMakeFiles/rebuild_cache.dir

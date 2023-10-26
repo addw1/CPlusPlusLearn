@@ -3,13 +3,37 @@
 #include <iostream>
 #include "./sortTem.h"
 
+class base{
 
+};
+class A: public base{
+private:
+    int a = 2;
+    int b;
+    int c;
+public:
+    A(): a(1), b(2), c(3){
+
+    }
+};
+void test01(const int& a){
+
+}
+
+void swap(int a, int b){
+    int temp = a;
+    a = b;
+    b = temp;
+}
 int main( ) {
+    int a = 1;
+    int b = 2;
+    std::cout << "a" << a << std::endl;
+    std::cout << "b" << b << std::endl;
+    //int& a = a;
+    swap(a, b);
+    base* d = new base();
+    std::cout << "a" << a << std::endl;
+    std::cout << "b" << b << std::endl;
 
-    int a[6] = {6,5,4,3,2,1};
-    SortTem::sort(a, 6);
-    for(int i = 0; i < 6; i++)
-        std::cout << a[i] << std::endl;
-
-    return EXIT_SUCCESS;
 }
